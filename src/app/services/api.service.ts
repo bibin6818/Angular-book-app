@@ -5,7 +5,7 @@ import { bookModel } from '../book-model';
   providedIn: 'root'
 })
 export class ApiService {
-  server_url="http://localhost:3000"
+  server_url="https://book-app-server-ang.onrender.com"
   constructor(private http:HttpClient) { }
 
   addBooksAPI(books:bookModel){
